@@ -1,0 +1,142 @@
+body {
+    margin: auto;
+  }
+
+.header{
+    padding: 25px;
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical*/
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: "Pacifico";
+    color: black;
+    box-shadow: 0px 5px 25px #E8E8E8;
+    
+}
+    .img1{
+        height: 80px;
+        width: 80px;
+        margin-right: 20px;
+        /*border-radius: 50%;*/
+    }
+
+.controlbar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical*/
+    text-align: center; /*horizontal*/
+    font-weight: bold;
+    font-family: "Pacifico";
+}
+    .btn{
+        padding: 2px 6px 2px 6px;
+        border: solid 1px #ff6161;
+        background: #ff6161;
+        color: white;
+        border-radius: 8px;
+        font-weight: bold;
+        margin-right: 10px;
+        font-size: 1.5em;
+        font-family: "Lobster";
+    }
+    .sbtn{
+        padding: 10px;
+        border: solid 1px #ff6161;
+        background: #ff6161;
+        color: white;
+        border-radius: 8px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+.mainboard{
+    position: relative;
+}
+.overlay{
+    position:absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 350px;
+    padding-bottom: 40px;
+    width: 400px;
+    height: 190px;
+    z-index:10;
+    border-radius: 8px;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: "Pacifico";
+    background-color: #fff;
+    box-shadow: 0px 5px 25px #9c9c9cf6;
+    color: rgb(5, 5, 5);
+    white-space: pre-line;
+    justify-items: center;
+    
+}
+
+.img4{
+    max-width: 45% ;
+    float: left;
+    padding-left: 35px;
+    padding-top: 0px;
+}
+
+.warningmsg {
+    font-size: 20px;
+    padding-bottom: 100px;
+    padding-right: 35px;
+    float: right;
+  }
+
+
+
+.playground {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-auto-rows: 200px;
+    background-color: #fff;
+    padding: 30px;
+    padding-top: 20px;
+    justify-content: center;
+
+  }
+  
+  .grid{
+    background-color: rgba(99, 98, 98, 0.048);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    font-size: 1em;
+    text-align: center;
+    
+  }
+
+  .img2 {
+    height: 200px; width: 200px;
+    object-fit: cover;
+}
+
+  .img3 {
+    height: 200px; width: 200px;
+    object-fit: cover;
+}
+
+
+.timebar{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center; 
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    
+}
+
+

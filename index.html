@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>That Face</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta charset="UTF-8">
+    <meta name="author" content="Ziting Tang">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script> 
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster">
+</head>
+
+<body>
+
+<div class="header">
+    <div class="favicon">
+        <img src="icon/favicon.gif" class="img1" >
+    </div>
+    <div class="gamenm"> That Face </div> 
+</div>
+
+<div class="controlbar">
+   <input type="button" value="Start" class="btn" id="btn1">
+   <input type="button" value="To the Next" class="btn" id="btn2" style="display: none;">
+   <div class="roundnotice">
+    <span style="color: #000000;font-size: 1.5em;margin-right: 10px;margin-left: 5px;">Round</span> 
+    <span id="stagecount" style="color: #ff6161;font-size: 1.8em;margin-right: 10px;">1</span>
+    <span style="color: #000000;font-size: 1.2em;margin-right: 6px;">/</span>
+    <span style="color: #000000;font-size: 1.8em;margin-right: 10px;">6</span>
+    <span style="color: #000000;font-size: 1.1em;margin-right: 5px;">[&nbsp;&nbsp;Total</span> 
+    <span id="scorecount" style="color: #ff6161;font-size: 1.3em;margin-right: 5px;">0</span>
+    <span style="color: #000000;font-size: 1.1em;margin-right: 5px;">scores&nbsp;&nbsp;-&nbsp;&nbsp;Minimum</span> 
+    <span id="timeuse" style="color: #ff6161;font-size: 1.3em;">0</span>
+    <span style="color: #000000;font-size: 1.1em;">s&nbsp;&nbsp;consumed &nbsp;per round&nbsp;&nbsp;]</span>
+   </div>
+    <button id="btn3" style="margin-left: 10px;background: none;border: none;padding-top: 13px;">
+      <img src="icon/camera.png" border="0" >
+    </button>
+</div>
+
+
+<div class="mainboard">
+<div class="overlay" id="overlay" style="display: none;">
+    <div><img src="icon/wbg.jpg" id="img4" class="img4"></div>
+    <div id="warningmsg" class="warningmsg"></div>
+</div>
+<div class="playground">
+  <div class="grid" id="grid1">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic1" src="" hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid2">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic2"src="" hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid3">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic3" src="" hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid4">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic4" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid5">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic5" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid6">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic6" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid7">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic7" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid8">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic8" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid9">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic9" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid10">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic10" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid11">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic11" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid12">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic12"src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid13">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic13" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid14">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic14" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid15">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic15" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+  <div class="grid" id="grid16">
+    <input class="flip" value=0 type="hidden">
+    <img id="pic16" src=" " hidden="hidden" class="img2">
+    <img  src="icon/qmark.jpg" 
+    hidden="hidden" class="img3">
+  </div>
+</div>
+</div>
+
+<div class="timebar",style="position:relative">
+  <canvas id="basebar" style="position: absolute; top: 1060px; z-index: 0;" id="basebar" width="750" height="100"></canvas>
+  <canvas id="movebar" style="position: absolute; top: 1060px; z-index: 1;" id="movebar" width="750" height="100"></canvas>
+  <img  id="moveobj" src="icon/runbarstatic.png" width="50", height="55" style="position: absolute; top: 1055px; z-index: 3;">
+</div>
+
+
+</body>
+</html>
