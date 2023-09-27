@@ -11,8 +11,11 @@ Brief Description:
     - Best Performance per round 
     - Moving Timebar
     - Screenshot of game and download as png file anytime 
+* Examples of games
 
 <p align="center">
 <img src="Example01.png"  width="400" height=450 title="Fail Example"/>
 <img src="Example02.png"  width="400" height=450 title="Success Example"/>
 </p>
+
+<pre align="center">Failure Examples                 Success Examples</pre>
