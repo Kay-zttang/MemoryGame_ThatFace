@@ -18,4 +18,4 @@ Brief Description:
 <img src="Example02.png"  width="400" height=450 title="Success Example"/>
 </p>
 
-<pre align="center">Failure Examples                        Success Examples</pre>
+<pre align="center">Failure Examples                                Success Examples</pre>
