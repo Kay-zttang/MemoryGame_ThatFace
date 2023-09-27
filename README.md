@@ -12,8 +12,6 @@ Brief Description:
     - Moving Timebar
     - Screenshot of game and download as png file anytime 
 
-![Game-Example](screenshot.png)
-
 <p align="center">
-<img src="screenshot.png"  width="500" height="675">
+<img src="screenshot.png"  width="550" height="650">
 </p>
