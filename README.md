@@ -1,5 +1,5 @@
 
- "That Face"<br>
+ <h2>That Face</h2>
 
 "http://thatface.surge.sh/"<br>
 
@@ -10,3 +10,6 @@ Brief Description:
     - Scores foas all
     - Best Performance per round 
     - Moving Timebar
+    - Screenshot of game and download as png file anytime 
+
+![Game-Example](screenshot.png)
