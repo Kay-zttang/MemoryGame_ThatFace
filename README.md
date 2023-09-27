@@ -14,8 +14,8 @@ Brief Description:
 * Examples of games
 
 <p align="center">
-<img src="Example01.png"  width="400" height=450 title="Fail Example"/>
-<img src="Example02.png"  width="400" height=450 title="Success Example"/>
+<img src="Example01.png"  width="400" height=445 title="Fail Example"/>
+<img src="Example02.png"  width="400" height=445 title="Success Example"/>
 </p>
 
-<pre align="center">Failure Examples                                   Success Examples</pre>
+<pre align="center">Failure Example                                     Success Example</pre>
