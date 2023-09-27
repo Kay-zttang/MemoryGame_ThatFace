@@ -14,4 +14,6 @@ Brief Description:
 
 ![Game-Example](screenshot.png)
 
-<img src="screenshot.png"  width="700" height="750">
+<p align="center">
+<img src="screenshot.png"  width="500" height="675">
+</p>
