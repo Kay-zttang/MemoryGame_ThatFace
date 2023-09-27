@@ -13,5 +13,6 @@ Brief Description:
     - Screenshot of game and download as png file anytime 
 
 <p align="center">
-<img src="screenshot.png"  width="550" height="650">
+<img src="Example01.png"  width="500" height=575>
+<img src="Example02.png"  width="500" height=575>
 </p>
